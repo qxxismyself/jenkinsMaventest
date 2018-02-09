@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	
+	
+	<definition name="layout" template="/WEB-INF/layout/layout.jsp">
+		<put-attribute name="import" value="/WEB-INF/layout/import.jsp" />
+		<put-attribute name="left" value="/WEB-INF/layout/left.jsp" />
+	</definition>
+
+	<definition name="*.*.*" extends="layout">
+		<put-attribute name="center" value="/WEB-INF/view/{1}/{2}/{3}.jsp" />
+	</definition>
+	
+	<definition name="*.*" extends="layout">
+		<put-attribute name="center" value="/WEB-INF/view/{1}/{2}.jsp" />
+	</definition>
+</tiles-definitions>
