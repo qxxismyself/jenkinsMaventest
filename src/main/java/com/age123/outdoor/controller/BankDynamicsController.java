@@ -20,6 +20,7 @@ public class BankDynamicsController {
 		System.out.println(bankDynamicsService.getAll().size());
 		System.out.println("hello world");
 		System.out.println("hello world2");
+		System.out.println("hello world3");
 		return "publicInfo.list";
 	}
 }
