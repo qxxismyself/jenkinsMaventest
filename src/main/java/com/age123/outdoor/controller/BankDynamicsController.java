@@ -19,6 +19,7 @@ public class BankDynamicsController {
 		System.out.println(bankDynamicsService.getById(1).getBankName());
 		System.out.println(bankDynamicsService.getAll().size());
 		System.out.println("hello world");
+		System.out.println("hello world2");
 		return "publicInfo.list";
 	}
 }
