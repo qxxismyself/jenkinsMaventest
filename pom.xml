@@ -30,11 +30,11 @@
 			<version>3.1</version>
 		</dependency>
 		<dependency>
-            <groupId>com.hynnet</groupId>
-            <artifactId>sqljdbc4-chs</artifactId>
-            <version>4.0.2206.100</version>
-        </dependency>
-		<dependency>
+	        <groupId>com.microsoft.sqlserver</groupId>
+	        <artifactId>sqljdbc4</artifactId>
+	        <version>4.0</version>
+	    </dependency>
+        <dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>${junit.version}</version>
